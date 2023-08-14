@@ -72,7 +72,7 @@
 
         <section id="contactme">
             <header>
-                <h2>Entre em contato!:</h2>
+                <h2>Entre em contato:</h2>
             </header>
             <form action="fazalgo.html" method="post">
                 <p>
@@ -87,9 +87,23 @@
                         <input type="email" name="email">
                     </label>
                 </p>
+                <p>
+                    <label>
+                        Objetivo:
+                        <select name="motivo">
+                            <option value="entrevista">Entrevista de emprego</option>
+                            <option value="outros">Outro motivo</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Mensagem:
+                        <textarea name="mensagem" rows="3"></textarea>
+                    </label>
+                </p>
                 <button type="submit">Enviar</button>
             </form>
-
         </section>
 
         </main>
