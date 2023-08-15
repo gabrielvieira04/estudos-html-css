@@ -8,6 +8,7 @@ main h1 {
 }
 form > p label {
     display: block;
+    margin: 0.125rem;
 }
 
 main {
