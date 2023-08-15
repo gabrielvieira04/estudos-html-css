@@ -6,10 +6,6 @@
 main h1 {
     border: solid 2px black;
 }
-form > p label {
-    display: block;
-    margin: 0.125rem;
-}
 
 main {
     width: 800px;
@@ -22,4 +18,12 @@ main {
 #quote blockquote {
     border: solid 1px black;
     padding: 0 0.5rem;
+}
+
+.label-standard {
+    display: block;
+    margin: 0.125rem;
+}
+.field{
+    margin-bottom: 1.25rem;
 }
