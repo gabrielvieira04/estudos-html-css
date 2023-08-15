@@ -6,6 +6,9 @@
 main h1 {
     border: solid 2px black;
 }
+form > p label {
+    display: block;
+}
 
 main {
     width: 800px;
