@@ -11,6 +11,8 @@ main {
     padding: 0 2rem;
     border-left: solid 2px black;
     border-right: solid 2px black;
+    margin-left: auto;
+    margin-right: auto;
 }
 #quote blockquote {
     border: solid 1px black;
