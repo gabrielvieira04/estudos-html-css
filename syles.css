@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+main h1 {
+    border: solid 2px black;
+}
+
+main {
+    width: 800px;
+    padding: 0 2rem;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+}
+#quote blockquote {
+    border: solid 1px black;
+    padding: 0 0.5rem;
+}
